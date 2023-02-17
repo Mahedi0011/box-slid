@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+  .box {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid red;
+    background: #ff0;
+  }
+
+  .hid-box {
+    height: 100%;
+    position: relative;
+    top: 100%;  
+    background: #428bca; 
+    transition: all .3s ease-out;    
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .box:hover>.hid-box{
+    top: 0;
+  }
